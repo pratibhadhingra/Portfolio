@@ -65,8 +65,8 @@
         "period": "May 2023 - Present",
         "location": "Jaipur",
         "current": true,
-        "description": "Developed cross-platform mobile features using React Native, including deep linking, local state management, and native platform integrations. Built and optimized backend microservices and REST APIs using Python (FastAPI) and Node.js, improving application response times by 35%. Implemented NestJS architectural patterns and CI/CD pipelines using GitHub Actions and AWS.",
-        "tags": ["React Native", "FastAPI", "Node.js", "NestJS", "AWS", "GitHub Actions", "Microservices"]
+        "description": "Developed cross-platform mobile features using React Native, including deep linking, local state management, and native platform integrations. Built and optimized scalable microservices architecture using Python (FastAPI), Node.js, and Kafka for event streaming. Deployed containerized applications on Kubernetes clusters, improving application response times by 35%. Implemented NestJS architectural patterns and CI/CD pipelines using GitHub Actions and AWS.",
+        "tags": ["React Native", "FastAPI", "Node.js", "NestJS", "Kafka", "Kubernetes", "AWS", "Microservices", "Docker"]
       },
       {
         "company": "Kogincs",
@@ -100,12 +100,12 @@
       "Backend": {
         "label": "#7c3aed",
         "pilClass": "pill-violet",
-        "items": ["Node.js", "Express.js", "NestJS", "FastAPI", "Python", "REST APIs", "Microservices", "SQL"]
+        "items": ["Node.js", "Express.js", "NestJS", "FastAPI", "Python", "REST APIs", "Microservices", "Kafka", "SQL", "gRPC"]
       },
       "Cloud & DevOps": {
         "label": "#0891b2",
         "pilClass": "pill-cyan",
-        "items": ["AWS", "Docker", "GitHub Actions", "CI/CD", "Vercel", "Sentry", "Postman", "Swagger"]
+        "items": ["AWS", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Sentry", "Postman", "Swagger"]
       },
       "Database & AI": {
         "label": "#059669",
