@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "domain": "https://pratibhadhingra.dev",
+    "title": "Pratibha Dhingra | Full Stack & React Native Developer",
+    "description": "Full Stack and React Native Developer with 3.5+ years of experience building scalable mobile applications and backend systems using React Native, Node.js, FastAPI, and AWS."
+  },
+  "accessibility": {
+    "toggleTheme": "Toggle theme",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "greeting": "< Hello World />",
+    "name": "Pratibha Dhingra",
+    "title": "Full Stack & React Native Developer",
+    "description": "3.5+ years building scalable mobile applications and backend systems — React Native frontends to FastAPI/Node.js APIs and cloud infrastructure. AI integrations, microservices, and CI/CD.",
+    "viewWork": "View My Work",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me",
+    "scroll": "Scroll",
+    "profileAlt": "Pratibha Dhingra"
+  },
+  "about": {
+    "label": "About Me",
+    "title": "Building scalable mobile & AI",
+    "highlight": "solutions",
+    "paragraph1": "I'm a Full Stack and React Native Developer with over 3.5 years of hands-on experience building scalable mobile applications and backend systems. I work across the entire stack — from React Native mobile apps to FastAPI/Node.js microservices and cloud infrastructure.",
+    "paragraph2": "I specialize in AI integrations using OpenAI GPT-4o, building microservices architecture, and implementing CI/CD pipelines. Whether developing cross-platform mobile apps, designing database schemas, or deploying to AWS — I bring the same level of care to every layer.",
+    "location": "Jaipur, India",
+    "email": "pratibhadhingra102@gmail.com"
+  },
+  "stats": [
+    { "label": "Years Experience", "value": "3.5+" },
+    { "label": "Projects Completed", "value": "10+" },
+    { "label": "AI Integrations", "value": "5+" },
+    { "label": "Cloud Deployments", "value": "15+" }
+  ],
+  "education": {
+    "label": "Education",
+    "title": "Academic background",
+    "items": [
+      {
+        "institution": "S.S. Jain Subodh Autonomous P.G. College",
+        "degree": "Master of Computer Applications",
+        "period": "May 2023 - May 2025",
+        "location": "Jaipur, Rajasthan",
+        "details": "GPA: 8.8/10"
+      },
+      {
+        "institution": "S.S. Jain Subodh Mahila Mahavidhyalaya College",
+        "degree": "Bachelors of Computer Applications",
+        "period": "May 2019 - May 2022",
+        "location": "Jaipur, Rajasthan",
+        "details": "91% (Merit in Rajasthan)"
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Work history",
+    "current": "Current",
+    "items": [
+      {
+        "company": "Biz4Group LLC",
+        "role": "AI Product Engineer",
+        "period": "May 2023 - Present",
+        "location": "Jaipur",
+        "current": true,
+        "description": "Developed cross-platform mobile features using React Native, including deep linking, local state management, and native platform integrations. Built and optimized backend microservices and REST APIs using Python (FastAPI) and Node.js, improving application response times by 35%. Implemented NestJS architectural patterns and CI/CD pipelines using GitHub Actions and AWS.",
+        "tags": ["React Native", "FastAPI", "Node.js", "NestJS", "AWS", "GitHub Actions", "Microservices"]
+      },
+      {
+        "company": "Kogincs",
+        "role": "Full Stack Developer – Trainee",
+        "period": "Oct 2022 - May 2023",
+        "location": "Jaipur",
+        "current": false,
+        "description": "Developed frontend components and backend APIs using the MERN stack for web applications. Improved API performance through database query optimization and modular code enhancements across relational and NoSQL databases.",
+        "tags": ["React.js", "Node.js", "Express", "MongoDB", "MySQL", "JavaScript"]
+      }
+    ]
+  },
+  "certifications": {
+    "label": "Certifications",
+    "title": "Professional certifications",
+    "items": [
+      { "name": "OpenAI API & Prompt Engineering", "issuer": "Coursera", "year": "2025" },
+      { "name": "JavaScript Algorithms and Data Structures", "issuer": "freeCodeCamp", "year": "2023" },
+      { "name": "Git & GitHub Mastery", "issuer": "Udemy", "year": "2022" }
+    ]
+  },
+  "skills": {
+    "label": "Skills & Stack",
+    "title": "Tools I work with",
+    "categories": {
+      "Frontend": {
+        "label": "#6366f1",
+        "pilClass": "pill-indigo",
+        "items": ["React.js", "React Native", "Next.js", "TypeScript", "Redux", "Vite", "Ionic", "HTML5", "CSS3", "JavaScript"]
+      },
+      "Backend": {
+        "label": "#7c3aed",
+        "pilClass": "pill-violet",
+        "items": ["Node.js", "Express.js", "NestJS", "FastAPI", "Python", "REST APIs", "Microservices", "SQL"]
+      },
+      "Cloud & DevOps": {
+        "label": "#0891b2",
+        "pilClass": "pill-cyan",
+        "items": ["AWS", "Docker", "GitHub Actions", "CI/CD", "Vercel", "Sentry", "Postman", "Swagger"]
+      },
+      "Database & AI": {
+        "label": "#059669",
+        "pilClass": "pill-emerald",
+        "items": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "OpenAI GPT-4o", "Google Routes API", "Twilio"]
+      }
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Featured work",
+    "viewLive": "View Live",
+    "items": [
+      {
+        "title": "Route AI",
+        "description": "AI-driven routing mobile and web application for commercial truck drivers, automating optimal path generation based on legal permit uploads using GPT-4o document parsing and real-time navigation.",
+        "tags": ["React Native", "FastAPI", "GPT-4o", "Redis", "HERE Maps", "Google Routes"],
+        "previewClass": "preview-blue",
+        "tagClass": "tag-blue",
+        "linkClass": "link-blue",
+        "image": "/routeAI.png",
+        "icon": "🚛",
+        "year": "2026"
+      },
+      {
+        "title": "SweatJoy",
+        "description": "Live fitness and wellness platform with workout tracking, personalized meal logging, Apple subscription modules, and automated data pipeline with Zoho CRM integration.",
+        "tags": ["React Native iOS", "Apple Subscriptions", "Sentry", "Zoho CRM"],
+        "liveUrl": "https://play.google.com/store/apps/details?id=com.sweatjoy.app&hl=en-US",
+        "previewClass": "preview-violet",
+        "tagClass": "tag-violet",
+        "linkClass": "link-violet",
+        "image": "/sweatjoy.png",
+        "icon": "💪",
+        "year": "2025"
+      },
+      {
+        "title": "BizBot",
+        "description": "AI-powered enterprise organization chatbot deployed across custom cloud microservices, reducing document retrieval timelines by 40% with optimized PostgreSQL indexing and Redis caching.",
+        "tags": ["FastAPI", "Next.js", "PostgreSQL", "Redis", "OpenAI", "Microservices"],
+        "previewClass": "preview-green",
+        "tagClass": "tag-green",
+        "linkClass": "link-green",
+        "image": "/bizbot.png",
+        "icon": "🤖",
+        "year": "2025",
+        "liveUrl": "https://www.bizbot.com/"
+      },
+      {
+        "title": "WorthAdvisor",
+        "description": "Financial reporting platform with secure multi-role access control for 200+ production users, featuring CI/CD deployment pipelines using GitHub Actions and AWS Serverless frameworks.",
+        "tags": ["MERN", "Ionic", "AWS", "GitHub Actions", "Serverless"],
+        "liveUrl": "https://employee.worthoneplan.com/",
+        "previewClass": "preview-blue",
+        "tagClass": "tag-blue",
+        "linkClass": "link-blue",
+        "image": "/worth.png",
+        "icon": "💰",
+        "year": "2023"
+      }
+    ]
+  },
+  "resume": {
+    "label": "Resume",
+    "title": "Pratibha Dhingra — Full CV",
+    "subtitle": "Full Stack & React Native Developer · 3.5+ Years · React Native, FastAPI, Node.js, AWS",
+    "tags": ["React Native", "FastAPI", "Node.js", "PostgreSQL", "AWS", "NestJS", "OpenAI"],
+    "download": "Download Resume"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work together",
+    "description": "I'm currently open to new opportunities. Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open.",
+    "button": "Say Hello"
+  },
+  "footer": {
+    "name": "Pratibha Dhingra",
+    "copyright": "© 2026 · Building scalable mobile & AI solutions."
+  },
+  "navbar": {
+    "links": [
+      { "href": "#about", "label": "About" },
+      { "href": "#projects", "label": "Projects" },
+      { "href": "#education", "label": "Education" },
+      { "href": "#experience", "label": "Experience" },
+      { "href": "#skills", "label": "Skills" },
+      { "href": "#certifications", "label": "Certifications" },
+      { "href": "#contact", "label": "Contact" }
+    ],
+    "hireMe": "Hire Me",
+    "logo": "PD.dev"
+  }
+}

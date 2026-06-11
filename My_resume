@@ -1,0 +1,54 @@
+Pratibha Dhingra
+6350417756	•	pratibhadhingra102@gmail.com	•	LinkedIn
+Available immediately as an Immediate Joiner
+
+Professional Summary
+Full Stack and React Native Developer with 3.5+ years of experience building scalable mobile applications and backend systems using React Native, Node.js, FastAPI, and AWS. Hands-on experience developing REST APIs, microservices, AI-powered features, and CI/CD pipelines for production applications. Skilled in integrating third-party services, optimizing application performance, and delivering reliable cloud-based solutions.
+Education
+S.S. Jain Subodh Autonomous P.G. College	Jaipur, Rajasthan
+Master of Computer Applications — GPA: 8.8/10	05/2023 – 05/2025
+S.S. Jain Subodh Mahila Mahavidhyalaya College	Jaipur, Rajasthan
+Bachelors of Computer Applications — 91% (Merit in Rajasthan)	05/2019 – 05/2022
+Experience
+Biz4Group  LLC	Mansarovar, Jaipur
+AI Product Engineer	05/2023 – Present
+Developed cross-platform mobile features using React Native, including deep linking, local state management, and native platform integrations.
+Developed and optimized backend microservices and REST APIs using Python (FastAPI) and Node.js, improving application response times by 35%.
+Implemented NestJS architectural patterns including modules, guards, and interceptors to build maintainable and secure backend services.
+Integrated CI/CD pipelines using GitHub Actions and AWS to streamline production deployments.
+Collaborated with product, design, and QA teams to deliver stable and high-performance production features.
+Kogincs	Malviya Nagar, Jaipur
+Full Stack Developer – Trainee	10/2022 – 05/2023
+Developed frontend components and backend APIs using the MERN stack for web applications.
+Improved API performance through database query optimization and modular code enhancements across relational and NoSQL databases.
+Projects
+Route AI — Logistics Optimization Engine	(React Native, FastAPI, GPT-4o, Redis)	02/2026 – Present
+Engineered an AI-driven routing mobile and web application for commercial truck drivers, automating optimal path generation based on legal permit uploads.
+Integrated OpenAI GPT-4o to parse complex permit documents, extracting critical structural metadata to dynamically compute route restrictions.
+Implemented HERE Maps API and Google Routes API to render real-time, compliant navigation paths within a high-performance React Native frontend.
+Utilized Redis caching to store frequent routing queries, significantly reducing API processing overhead and database read stress.
+SweatJoy — Live Fitness Platform	(React Native iOS, Apple Subscriptions, Sentry)	11/2025 – Present
+Developed and deployed core iOS mobile features for a live commercial wellness application, managing app stability and performance tracking via Sentry integrations.
+Implemented secure Apple App Store subscription modules and custom iOS deep linking architectures to handle promotional 1-month trial conversions.
+Built a personalized meal tracking and nutritional logging feature, optimizing local state management to ensure a seamless mobile user experience.
+Designed and integrated an automated data pipeline connecting the mobile application backend directly with Zoho CRM for user lifecycle tracking.
+
+BizBot — AI Business Assistant	(FastAPI, Next.js, PostgreSQL, Redis, OpenAI)	06/2025 – 11/2025
+Engineered an AI-powered enterprise organization chatbot deployed across custom cloud Microservices, reducing document retrieval timelines by 40%.
+Optimized PostgreSQL query indexing and implemented Redis caching, reducing overall backend API latency thresholds by 60%.
+WorthAdvisor — Financial Reporting Platform	(MERN, Ionic, AWS)	06/2023 – Present
+Designed secure multi-role access control configurations (client, employee, admin) for 200+ active production users on AWS cloud infrastructure.
+Implemented rapid CI/CD deployment pipelines using GitHub Actions automation and Serverless frameworks.
+Technical Skills
+Languages: JavaScript, TypeScript, Python, HTML, CSS, SQL
+Mobile & Frontend: React Native, React.js, Next.js, Redux, Vite, Ionic
+Backend Frameworks: Node.js, Express.js, Nest.js (Architectural Patterns), FastAPI, Microservices Architecture Databases & Caching: PostgreSQL, MongoDB, MySQL, Redis, AWS RDS
+Cloud Infrastructure: AWS (ECS, ECR, S3, CloudFront, Serverless)
+DevOps & Deployment: Docker, Git, GitHub Actions, Vercel, AWS Amplify, Sentry, Postman, Swagger
+AI & Third-Party APIs: OpenAI GPT-4o, AWS Secrets Manager, CloudWatch, Google Routes, Twilio
+
+Certifications
+OpenAI API & Prompt Engineering — Coursera (2025)
+JavaScript Algorithms and Data Structures — freeCodeCamp (2023) Git & GitHub Mastery — Udemy (2022)
+Professional Skills
+Team Leadership	• Cross-functional Collaboration	• Problem-Solving	• Agile Methodologies
