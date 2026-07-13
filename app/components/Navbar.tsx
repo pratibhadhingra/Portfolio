@@ -19,7 +19,7 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md"
       style={{ background: 'var(--nav-bg)', borderBottom: '1px solid var(--nav-border)' }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 xl:px-24 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 font-bold text-base" style={{ color: 'var(--t1)' }}>
           <Code2 className="w-5 h-5" style={{ color: 'var(--acc)' }} />
@@ -86,7 +86,7 @@ export default function Navbar() {
       {/* Mobile drawer */}
       {isOpen && (
         <div style={{ borderTop: '1px solid var(--nav-border)', background: 'var(--nav-bg)' }}>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-col gap-3">
+          <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 xl:px-24 py-4 flex flex-col gap-3">
             {navLinks.map((link: { href: string; label: string }) => (
               <a
                 key={link.href}

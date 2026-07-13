@@ -26,13 +26,13 @@ export default function Home() {
 
         {/* ── Hero ───────────────────────────────────────────────────── */}
         <section
-          className="hero-grid min-h-screen flex items-center justify-center px-4 sm:px-6 pt-16 relative overflow-hidden"
+          className="hero-grid min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-16 xl:px-24 pt-16 relative overflow-hidden"
           style={{ background: 'var(--hero-bg)' }}
         >
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] rounded-full blur-[120px] pointer-events-none" style={{ background: 'var(--hero-blob1)' }} />
           <div className="absolute bottom-10 right-10 w-64 h-64 rounded-full blur-[80px] pointer-events-none" style={{ background: 'var(--hero-blob2)' }} />
 
-          <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
+          <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
             {/* Left: Text content */}
             <div className="fade-up">
               <div className="inline-block mb-6">
@@ -41,17 +41,17 @@ export default function Home() {
                 </span>
               </div>
 
-              <h1 className="text-5xl lg:text-7xl font-black mb-6 leading-tight" style={{ color: 'var(--t1)' }}>
+              <h1 className="text-4xl lg:text-6xl font-black mb-6 leading-tight" style={{ color: 'var(--t1)' }}>
                 {content.hero.name}
               </h1>
 
               <div className="h-1 w-20 mb-6 rounded-full" style={{ background: `linear-gradient(90deg, var(--acc), transparent)` }} />
 
-              <p className="text-xl lg:text-2xl font-semibold mb-4" style={{ color: 'var(--acc)' }}>
+              <p className="text-lg lg:text-xl font-semibold mb-4" style={{ color: 'var(--acc)' }}>
                 {content.hero.title}
               </p>
 
-              <p className="text-lg leading-relaxed mb-10 max-w-lg" style={{ color: 'var(--t2)' }}>
+              <p className="text-base leading-relaxed mb-10 max-w-lg" style={{ color: 'var(--t2)' }}>
                 {content.hero.description}
               </p>
 
@@ -87,12 +87,12 @@ export default function Home() {
         </section>
 
         {/* ── About ──────────────────────────────────────────────────── */}
-        <section id="about" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-page)' }}>
+        <section id="about" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.about.label}</SectionLabel></ScrollReveal>
             <div className="grid md:grid-cols-2 gap-10 sm:gap-14 items-center mt-10">
               <ScrollReveal delay={80}>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug" style={{ color: 'var(--t1)' }}>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-5 leading-snug" style={{ color: 'var(--t1)' }}>
                   {content.about.title}{' '}
                   <span className="gradient-text">{content.about.highlight}</span>
                 </h2>
@@ -118,7 +118,7 @@ export default function Home() {
                 {stats.map((stat) => (
                   <ScrollReveal key={stat.label}>
                     <div className="card-surface rounded-2xl p-4 sm:p-6 text-center" style={{ background: 'var(--bg-stat)' }}>
-                      <div className="text-2xl sm:text-3xl font-bold gradient-text mb-1">{stat.value}</div>
+                      <div className="text-xl sm:text-2xl font-bold gradient-text mb-1">{stat.value}</div>
                       <div className="text-xs" style={{ color: 'var(--t3)' }}>{stat.label}</div>
                     </div>
                   </ScrollReveal>
@@ -129,11 +129,11 @@ export default function Home() {
         </section>
 
         {/* ── Projects ───────────────────────────────────────────────── */}
-        <section id="projects" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-section)' }}>
+        <section id="projects" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-section)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.projects.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={60}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
                 {content.projects.title}
               </h2>
             </ScrollReveal>
@@ -156,11 +156,11 @@ export default function Home() {
                         <span className="text-sm font-semibold">{project.year}</span>
                       </div>
 
-                      <h3 className="text-4xl font-black mb-4" style={{ color: 'var(--t1)' }}>
+                      <h3 className="text-2xl sm:text-3xl font-black mb-4" style={{ color: 'var(--t1)' }}>
                         {project.title}
                       </h3>
 
-                      <p className="text-lg leading-relaxed mb-6" style={{ color: 'var(--t2)' }}>
+                      <p className="text-sm sm:text-base leading-relaxed mb-6" style={{ color: 'var(--t2)' }}>
                         {project.description}
                       </p>
 
@@ -194,11 +194,11 @@ export default function Home() {
         </section>
 
         {/* ── Education ───────────────────────────────────────────────── */}
-        <section id="education" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-section)' }}>
+        <section id="education" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-section)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.education.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={60}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
                 {content.education.title}
               </h2>
             </ScrollReveal>
@@ -231,11 +231,11 @@ export default function Home() {
         </section>
 
         {/* ── Experience ─────────────────────────────────────────────── */}
-        <section id="experience" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-section)' }}>
+        <section id="experience" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-section)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.experience.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={60}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
                 {content.experience.title}
               </h2>
             </ScrollReveal>
@@ -299,11 +299,11 @@ export default function Home() {
         </section>
 
         {/* ── Certifications ──────────────────────────────────────────── */}
-        <section id="certifications" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-page)' }}>
+        <section id="certifications" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.certifications.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={60}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
                 {content.certifications.title}
               </h2>
             </ScrollReveal>
@@ -325,11 +325,11 @@ export default function Home() {
         </section>
 
         {/* ── Skills ─────────────────────────────────────────────────── */}
-        <section id="skills" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-page)' }}>
+        <section id="skills" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.skills.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={60}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
                 {content.skills.title}
               </h2>
             </ScrollReveal>
@@ -355,7 +355,7 @@ export default function Home() {
         </section>
 
         {/* ── Resume ─────────────────────────────────────────────────── */}
-        <section id="resume" className="py-16 sm:py-20 px-4 sm:px-6" style={{ background: 'var(--bg-page)' }}>
+        <section id="resume" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
           <div className="max-w-6xl mx-auto">
             <ScrollReveal><SectionLabel>{content.resume.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={80}>
@@ -393,14 +393,14 @@ export default function Home() {
         </section>
 
         {/* ── Contact ────────────────────────────────────────────────── */}
-        <section id="contact" className="py-16 sm:py-20 px-4 sm:px-6 relative overflow-hidden" style={{ background: 'var(--bg-section)' }}>
+        <section id="contact" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24 relative overflow-hidden" style={{ background: 'var(--bg-section)' }}>
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div className="w-[500px] h-[280px] rounded-full blur-[100px]" style={{ background: 'var(--hero-blob1)' }} />
           </div>
           <div className="max-w-xl mx-auto text-center relative z-10">
             <ScrollReveal><SectionLabel>{content.contact.label}</SectionLabel></ScrollReveal>
             <ScrollReveal delay={80}>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-4 mb-4" style={{ color: 'var(--t1)' }}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-4" style={{ color: 'var(--t1)' }}>
                 {content.contact.title}
               </h2>
               <p className="leading-relaxed mb-8 text-sm sm:text-base" style={{ color: 'var(--t2)' }}>
@@ -419,7 +419,7 @@ export default function Home() {
         </section>
 
         {/* ── Footer ─────────────────────────────────────────────────── */}
-        <footer className="py-6 sm:py-8 px-4 sm:px-6" style={{ borderTop: '1px solid var(--foot-border)' }}>
+        <footer className="py-6 sm:py-8 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ borderTop: '1px solid var(--foot-border)' }}>
           <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-3 text-xs" style={{ color: 'var(--t3)' }}>
             <div className="flex items-center gap-2">
               <Code2 className="w-4 h-4" style={{ color: 'var(--acc)' }} />

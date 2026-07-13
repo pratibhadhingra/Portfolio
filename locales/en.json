@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "domain": "https://pratibhadhingra.dev",
-    "title": "Pratibha Dhingra | Full Stack & React Native Developer",
-    "description": "Full Stack and React Native Developer with 3.5+ years of experience building scalable mobile applications and backend systems using React Native, Node.js, FastAPI, and AWS."
+    "domain": "https://pratibhadhingra-portfolio.vercel.app",
+    "title": "Pratibha Dhingra | Full Stack Engineer",
+    "description": "Full Stack Engineer with 3.5+ years of experience designing and shipping end-to-end products across React, React Native, Node.js, and FastAPI, with AI integrations using LLMs, RAG pipelines, and LangGraph orchestration on AWS."
   },
   "accessibility": {
     "toggleTheme": "Toggle theme",
@@ -11,8 +11,8 @@
   "hero": {
     "greeting": "< Hello World />",
     "name": "Pratibha Dhingra",
-    "title": "Full Stack & React Native Developer",
-    "description": "3.5+ years building scalable mobile applications and backend systems — React Native frontends to FastAPI/Node.js APIs and cloud infrastructure. AI integrations, microservices, and CI/CD.",
+    "title": "Full Stack Engineer",
+    "description": "3.5+ years designing and shipping end-to-end products — React/React Native frontends to FastAPI/Node.js APIs and AWS cloud infrastructure. AI integrations with LLMs, RAG pipelines, and LangGraph orchestration.",
     "viewWork": "View My Work",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me",
@@ -23,8 +23,8 @@
     "label": "About Me",
     "title": "Building scalable mobile & AI",
     "highlight": "solutions",
-    "paragraph1": "I'm a Full Stack and React Native Developer with over 3.5 years of hands-on experience building scalable mobile applications and backend systems. I work across the entire stack — from React Native mobile apps to FastAPI/Node.js microservices and cloud infrastructure.",
-    "paragraph2": "I specialize in AI integrations using OpenAI GPT-4o, building microservices architecture, and implementing CI/CD pipelines. Whether developing cross-platform mobile apps, designing database schemas, or deploying to AWS — I bring the same level of care to every layer.",
+    "paragraph1": "I'm a Full Stack Engineer with over 3.5 years of experience designing and shipping end-to-end products across React, React Native, Node.js, and FastAPI, spanning web, iOS, and Android platforms. I work across the entire stack — database design, RESTful API development, and cloud deployment on AWS.",
+    "paragraph2": "I have hands-on experience integrating AI-powered features using LLMs, RAG pipelines, and LangGraph orchestration, with a track record of improving system performance through strategic caching and query optimization. I own projects end-to-end, from architecture through production deployment and CI/CD.",
     "location": "Jaipur, India",
     "email": "pratibhadhingra102@gmail.com"
   },
@@ -61,12 +61,12 @@
     "items": [
       {
         "company": "Biz4Group LLC",
-        "role": "AI Product Engineer",
+        "role": "Senior Software Developer",
         "period": "May 2023 - Present",
         "location": "Jaipur",
         "current": true,
-        "description": "Developed cross-platform mobile features using React Native, including deep linking, local state management, and native platform integrations. Built and optimized scalable microservices architecture using Python (FastAPI), Node.js, and Kafka for event streaming. Deployed containerized applications on Kubernetes clusters, improving application response times by 35%. Implemented NestJS architectural patterns and CI/CD pipelines using GitHub Actions and AWS.",
-        "tags": ["React Native", "FastAPI", "Node.js", "NestJS", "Kafka", "Kubernetes", "AWS", "Microservices", "Docker"]
+        "description": "Delivered product features end-to-end across web and mobile using React, React Native, Next.js, Node.js, Express.js, and FastAPI. Developed FastAPI endpoints for concurrent request handling and integrated CI/CD pipelines using GitHub Actions and AWS (ECS, ECR, RDS) for automated deployments. Optimized queries across PostgreSQL and MongoDB through strategic indexing and Redis caching, reducing API latency by an estimated 20% and database load by 15%.",
+        "tags": ["React", "React Native", "Next.js", "Node.js", "Express.js", "FastAPI", "AWS", "GitHub Actions", "PostgreSQL", "MongoDB", "Redis"]
       },
       {
         "company": "Kogincs",
@@ -95,22 +95,27 @@
       "Frontend": {
         "label": "#6366f1",
         "pilClass": "pill-indigo",
-        "items": ["React.js", "React Native", "Next.js", "TypeScript", "Redux", "Vite", "Ionic", "HTML5", "CSS3", "JavaScript"]
+        "items": ["JavaScript", "TypeScript", "HTML5", "CSS3", "React.js", "React Native", "Next.js", "Vite", "Redux"]
       },
       "Backend": {
         "label": "#7c3aed",
         "pilClass": "pill-violet",
-        "items": ["Node.js", "Express.js", "NestJS", "FastAPI", "Python", "REST APIs", "Microservices", "Kafka", "SQL", "gRPC"]
+        "items": ["Node.js", "Python", "Express.js", "NestJS", "FastAPI", "Microservices", "gRPC"]
+      },
+      "Databases & Caching": {
+        "label": "#059669",
+        "pilClass": "pill-emerald",
+        "items": ["SQL", "PostgreSQL", "MongoDB", "MySQL", "Redis"]
       },
       "Cloud & DevOps": {
         "label": "#0891b2",
         "pilClass": "pill-cyan",
-        "items": ["AWS", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Sentry", "Postman", "Swagger"]
+        "items": ["AWS (ECS, ECR, RDS, S3, Lambda, CloudWatch, Amplify)", "Docker", "Kubernetes", "Kafka", "GitHub Actions", "Vercel", "Jest", "Unit Testing"]
       },
-      "Database & AI": {
-        "label": "#059669",
-        "pilClass": "pill-emerald",
-        "items": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "OpenAI GPT-4o", "Google Routes API", "Twilio"]
+      "AI & APIs": {
+        "label": "#d97706",
+        "pilClass": "pill-amber",
+        "items": ["OpenAI", "Claude", "GitHub Copilot", "ChatGPT", "JWT Authentication", "OAuth2", "Rate Limiting", "Third-party API Integration"]
       }
     }
   },
@@ -121,8 +126,8 @@
     "items": [
       {
         "title": "Route AI",
-        "description": "AI-driven routing mobile and web application for commercial truck drivers, automating optimal path generation based on legal permit uploads using GPT-4o document parsing and real-time navigation.",
-        "tags": ["React Native", "FastAPI", "GPT-4o", "Redis", "HERE Maps", "Google Routes"],
+        "description": "AI-driven logistics routing platform for commercial truck drivers, integrating HERE Maps, Google Routes, and Gemini 2.5 Pro APIs for real-time, compliant route rendering. Containerized the FastAPI backend with Docker on AWS ECS/EC2, and integrated OpenAI for permit document parsing and dynamic route restriction computation.",
+        "tags": ["React Native", "FastAPI", "PostgreSQL", "Docker", "AWS (ECS, EC2)", "OpenAI", "Gemini 2.5 Pro", "HERE Maps"],
         "previewClass": "preview-blue",
         "tagClass": "tag-blue",
         "linkClass": "link-blue",
@@ -132,8 +137,8 @@
       },
       {
         "title": "SweatJoy",
-        "description": "Live fitness and wellness platform with workout tracking, personalized meal logging, Apple subscription modules, and automated data pipeline with Zoho CRM integration.",
-        "tags": ["React Native iOS", "Apple Subscriptions", "Sentry", "Zoho CRM"],
+        "description": "Live fitness and wellness iOS app built with React Native, featuring Apple In-App Purchases, Google/Apple Sign-In, custom deep linking, and secure payment processing. Python backend syncs signup/login data to Zoho CRM, with personalized meal tracking via local caching and real-time sync.",
+        "tags": ["React Native", "Python", "In-App Purchases", "Google/Apple Sign-In", "Zoho CRM"],
         "liveUrl": "https://play.google.com/store/apps/details?id=com.sweatjoy.app&hl=en-US",
         "previewClass": "preview-violet",
         "tagClass": "tag-violet",
@@ -156,8 +161,8 @@
       },
       {
         "title": "WorthAdvisor",
-        "description": "Financial reporting platform with secure multi-role access control for 200+ production users, featuring CI/CD deployment pipelines using GitHub Actions and AWS Serverless frameworks.",
-        "tags": ["MERN", "Ionic", "AWS", "GitHub Actions", "Serverless"],
+        "description": "End-to-end financial reporting platform serving 200+ production users with multi-role access control (client, employee, admin) across web and mobile (Ionic). Architected a Node.js–Python bridge with LangGraph workflow orchestration and AWS Bedrock, implementing a RAG pipeline with client-scoped data isolation and Redis-optimized query performance.",
+        "tags": ["Node.js", "React", "Python", "MongoDB", "AWS Bedrock", "LangGraph", "RAG"],
         "liveUrl": "https://employee.worthoneplan.com/",
         "previewClass": "preview-blue",
         "tagClass": "tag-blue",
@@ -171,8 +176,8 @@
   "resume": {
     "label": "Resume",
     "title": "Pratibha Dhingra — Full CV",
-    "subtitle": "Full Stack & React Native Developer · 3.5+ Years · React Native, FastAPI, Node.js, AWS",
-    "tags": ["React Native", "FastAPI", "Node.js", "PostgreSQL", "AWS", "NestJS", "OpenAI"],
+    "subtitle": "Full Stack Engineer · 3.5+ Years · React, React Native, Node.js, FastAPI, AWS",
+    "tags": ["React", "React Native", "Node.js", "FastAPI", "PostgreSQL", "AWS", "LangGraph", "RAG"],
     "download": "Download Resume"
   },
   "contact": {
