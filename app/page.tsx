@@ -298,32 +298,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── Certifications ──────────────────────────────────────────── */}
-        <section id="certifications" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
-          <div className="max-w-6xl mx-auto">
-            <ScrollReveal><SectionLabel>{content.certifications.label}</SectionLabel></ScrollReveal>
-            <ScrollReveal delay={60}>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
-                {content.certifications.title}
-              </h2>
-            </ScrollReveal>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 stagger">
-              {certifications.map((cert) => (
-                <ScrollReveal key={cert.name}>
-                  <div className="card-surface rounded-2xl p-5 sm:p-6">
-                    <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style={{ background: 'var(--acc-bg)', border: '1px solid var(--acc-border)' }}>
-                      <FileText className="w-5 h-5" style={{ color: 'var(--acc)' }} />
-                    </div>
-                    <h3 className="text-sm sm:text-base font-semibold mb-2" style={{ color: 'var(--t1)' }}>{cert.name}</h3>
-                    <p className="text-xs mb-2" style={{ color: 'var(--t3)' }}>{cert.issuer}</p>
-                    <span className="text-xs px-2.5 py-1 rounded-full font-medium pill-indigo">{cert.year}</span>
-                  </div>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* ── Skills ─────────────────────────────────────────────────── */}
         <section id="skills" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
           <div className="max-w-6xl mx-auto">
@@ -347,6 +321,32 @@ export default function Home() {
                         </span>
                       ))}
                     </div>
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Certifications ──────────────────────────────────────────── */}
+        <section id="certifications" className="py-16 sm:py-20 px-6 sm:px-8 lg:px-16 xl:px-24" style={{ background: 'var(--bg-page)' }}>
+          <div className="max-w-6xl mx-auto">
+            <ScrollReveal><SectionLabel>{content.certifications.label}</SectionLabel></ScrollReveal>
+            <ScrollReveal delay={60}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 mb-10 sm:mb-12" style={{ color: 'var(--t1)' }}>
+                {content.certifications.title}
+              </h2>
+            </ScrollReveal>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 stagger">
+              {certifications.map((cert) => (
+                <ScrollReveal key={cert.name}>
+                  <div className="card-surface rounded-2xl p-5 sm:p-6">
+                    <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style={{ background: 'var(--acc-bg)', border: '1px solid var(--acc-border)' }}>
+                      <FileText className="w-5 h-5" style={{ color: 'var(--acc)' }} />
+                    </div>
+                    <h3 className="text-sm sm:text-base font-semibold mb-2" style={{ color: 'var(--t1)' }}>{cert.name}</h3>
+                    <p className="text-xs mb-2" style={{ color: 'var(--t3)' }}>{cert.issuer}</p>
+                    <span className="text-xs px-2.5 py-1 rounded-full font-medium pill-indigo">{cert.year}</span>
                   </div>
                 </ScrollReveal>
               ))}
