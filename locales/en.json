@@ -2,7 +2,7 @@
   "metadata": {
     "domain": "https://pratibhadhingra-portfolio.vercel.app",
     "title": "Pratibha Dhingra | Full Stack Engineer",
-    "description": "Full Stack Engineer with 3.5+ years of experience designing and shipping end-to-end products across React, React Native, Node.js, and FastAPI, with AI integrations using LLMs, RAG pipelines, and LangGraph orchestration on AWS."
+    "description": "Full Stack Engineer with 3.5+ years of experience designing and shipping end-to-end products using MERN, Python/FastAPI, and React Native, with AI integrations using LLMs, RAG pipelines, and LangGraph orchestration on AWS."
   },
   "accessibility": {
     "toggleTheme": "Toggle theme",
@@ -12,7 +12,7 @@
     "greeting": "< Hello World />",
     "name": "Pratibha Dhingra",
     "title": "Full Stack Engineer",
-    "description": "3.5+ years designing and shipping end-to-end products — React/React Native frontends to FastAPI/Node.js APIs and AWS cloud infrastructure. AI integrations with LLMs, RAG pipelines, and LangGraph orchestration.",
+    "description": "3.5+ years designing and shipping end-to-end products — MERN and React Native frontends to Python/FastAPI APIs and AWS cloud infrastructure. AI integrations with LLMs, RAG pipelines, and LangGraph orchestration.",
     "viewWork": "View My Work",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me",
@@ -23,7 +23,7 @@
     "label": "About Me",
     "title": "Building scalable mobile & AI",
     "highlight": "solutions",
-    "paragraph1": "I'm a Full Stack Engineer with over 3.5 years of experience designing and shipping end-to-end products across React, React Native, Node.js, and FastAPI, spanning web, iOS, and Android platforms. I work across the entire stack — database design, RESTful API development, and cloud deployment on AWS.",
+    "paragraph1": "I'm a Full Stack Engineer with over 3.5 years of experience designing and shipping end-to-end products using MERN (MongoDB, Express.js, React, Node.js), Python/FastAPI, and React Native, spanning web, iOS, and Android platforms. I work across the entire stack — database design, RESTful API development, and cloud deployment on AWS.",
     "paragraph2": "I have hands-on experience integrating AI-powered features using LLMs, RAG pipelines, and LangGraph orchestration, with a track record of improving system performance through strategic caching and query optimization. I own projects end-to-end, from architecture through production deployment and CI/CD.",
     "location": "Jaipur, India",
     "email": "pratibhadhingra102@gmail.com"
@@ -65,8 +65,8 @@
         "period": "May 2023 - Present",
         "location": "Jaipur",
         "current": true,
-        "description": "Delivered product features end-to-end across web and mobile using React, React Native, Next.js, Node.js, Express.js, and FastAPI. Developed FastAPI endpoints for concurrent request handling and integrated CI/CD pipelines using GitHub Actions and AWS (ECS, ECR, RDS) for automated deployments. Optimized queries across PostgreSQL and MongoDB through strategic indexing and Redis caching, reducing API latency by an estimated 20% and database load by 15%.",
-        "tags": ["React", "React Native", "Next.js", "Node.js", "Express.js", "FastAPI", "AWS", "GitHub Actions", "PostgreSQL", "MongoDB", "Redis"]
+        "description": "Delivered product features end-to-end across web and mobile, working across MERN (MongoDB, Express.js, React, Node.js), React Native, and Python/FastAPI stacks. Developed FastAPI and Express.js endpoints for concurrent request handling; integrated CI/CD pipelines using GitHub Actions and AWS (ECS, ECR, RDS) for automated deployments. Optimized queries across MongoDB and PostgreSQL through strategic indexing and Redis caching, reducing API latency by an estimated 20% and database load by 15%.",
+        "tags": ["MERN", "React Native", "Python", "FastAPI", "Express.js", "AWS", "GitHub Actions", "MongoDB", "PostgreSQL", "Redis"]
       },
       {
         "company": "Kogincs",
@@ -74,7 +74,7 @@
         "period": "Oct 2022 - May 2023",
         "location": "Jaipur",
         "current": false,
-        "description": "Developed frontend components and backend APIs using the MERN stack for web applications. Improved API performance through database query optimization and modular code enhancements across relational and NoSQL databases.",
+        "description": "Built MERN stack (MongoDB, Express.js, React, Node.js) web applications, developing frontend components and backend REST APIs with database optimization, improving system performance through query and component tuning.",
         "tags": ["React.js", "Node.js", "Express", "MongoDB", "MySQL", "JavaScript"]
       }
     ]
@@ -95,17 +95,17 @@
       "Frontend": {
         "label": "#6366f1",
         "pilClass": "pill-indigo",
-        "items": ["JavaScript", "TypeScript", "HTML5", "CSS3", "React.js", "React Native", "Next.js", "Vite", "Redux"]
+        "items": ["JavaScript", "TypeScript", "HTML5", "CSS3", "React.js", "Redux", "React Native", "Next.js", "Vite"]
       },
       "Backend": {
         "label": "#7c3aed",
         "pilClass": "pill-violet",
-        "items": ["Node.js", "Python", "Express.js", "NestJS", "FastAPI", "Microservices", "gRPC"]
+        "items": ["Node.js", "Express.js", "NestJS", "Python", "FastAPI", "Microservices", "gRPC"]
       },
       "Databases & Caching": {
         "label": "#059669",
         "pilClass": "pill-emerald",
-        "items": ["SQL", "PostgreSQL", "MongoDB", "MySQL", "Redis"]
+        "items": ["MongoDB", "PostgreSQL", "SQL", "MySQL", "Redis"]
       },
       "Cloud & DevOps": {
         "label": "#0891b2",
